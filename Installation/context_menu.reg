@@ -1,0 +1,658 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+; MP4
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\02webm]
+"MUIVerb"="To .webm"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\02webm\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webm.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\03mkv]
+"MUIVerb"="To .mkv"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\03mkv\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mkv.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\02mov]
+"MUIVerb"="To .mov"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\02mov\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mov.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\02avi]
+"MUIVerb"="To .avi"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\02avi\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\avi.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\05mp3]
+"MUIVerb"="To .mp3"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\05mp3\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp3.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\06ogg]
+"MUIVerb"="To .ogg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\06ogg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ogg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\07wav]
+"MUIVerb"="To .wav"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\NoxConvertor\shell\07wav\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\wav.py\" \"%1\""
+
+; WEBM
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\01mp4]
+"MUIVerb"="To .mp4"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\01mp4\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp4.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\03mkv]
+"MUIVerb"="To .mkv"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\03mkv\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mkv.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\02mov]
+"MUIVerb"="To .mov"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\02mov\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mov.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\02avi]
+"MUIVerb"="To .avi"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\02avi\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\avi.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\05mp3]
+"MUIVerb"="To .mp3"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\05mp3\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp3.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\06ogg]
+"MUIVerb"="To .ogg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\06ogg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ogg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\07wav]
+"MUIVerb"="To .wav"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\07wav\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\wav.py\" \"%1\""
+
+; MKV
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\01mp4]
+"MUIVerb"="To .mp4"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\01mp4\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp4.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\02webm]
+"MUIVerb"="To .webm"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\02webm\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webm.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\02mov]
+"MUIVerb"="To .mov"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\02mov\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mov.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\02avi]
+"MUIVerb"="To .avi"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\02avi\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\avi.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\05mp3]
+"MUIVerb"="To .mp3"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\05mp3\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp3.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\06ogg]
+"MUIVerb"="To .ogg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\06ogg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ogg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\07wav]
+"MUIVerb"="To .wav"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\07wav\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\wav.py\" \"%1\""
+
+; MOV
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\01mp4]
+"MUIVerb"="To .mp4"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\01mp4\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp4.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\02webm]
+"MUIVerb"="To .webm"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\02webm\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webm.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\02mkv]
+"MUIVerb"="To .mkv"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\02mkv\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mkv.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\03avi]
+"MUIVerb"="To .avi"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\02avi\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\avi.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\05mp3]
+"MUIVerb"="To .mp3"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\NoxConvertor\shell\05mp3\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp3.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\06ogg]
+"MUIVerb"="To .ogg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\06ogg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ogg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\07wav]
+"MUIVerb"="To .wav"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\NoxConvertor\shell\07wav\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\wav.py\" \"%1\""
+
+; AVI
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\01mp4]
+"MUIVerb"="To .mp4"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\01mp4\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp4.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\02webm]
+"MUIVerb"="To .webm"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\02webm\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webm.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\02mkv]
+"MUIVerb"="To .mkv"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\02mkv\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mkv.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\02mov]
+"MUIVerb"="To .mov"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\02mov\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mov.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\05mp3]
+"MUIVerb"="To .mp3"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\05mp3\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp3.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\06ogg]
+"MUIVerb"="To .ogg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\06ogg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ogg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\07wav]
+"MUIVerb"="To .wav"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\NoxConvertor\shell\07wav\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\wav.py\" \"%1\""
+
+; MP3
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\01mp4]
+"MUIVerb"="To .mp4"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\01mp4\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp4.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\02webm]
+"MUIVerb"="To .webm"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\02webm\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webm.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\03mkv]
+"MUIVerb"="To .mkv"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\03mkv\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mkv.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\06ogg]
+"MUIVerb"="To .ogg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\06ogg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ogg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\07wav]
+"MUIVerb"="To .wav"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\NoxConvertor\shell\07wav\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\wav.py\" \"%1\""
+
+; OGG
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\01mp4]
+"MUIVerb"="To .mp4"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\NoxConvertor\shell\01mp4\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp4.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\02webm]
+"MUIVerb"="To .webm"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\02webm\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webm.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\03mkv]
+"MUIVerb"="To .mkv"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\03mkv\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mkv.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\05mp3]
+"MUIVerb"="To .mp3"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\05mp3\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp3.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\07wav]
+"MUIVerb"="To .wav"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\NoxConvertor\shell\07wav\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\wav.py\" \"%1\""
+
+; WAV
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\01mp4]
+"MUIVerb"="To .mp4"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\01mp4\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp4.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\02webm]
+"MUIVerb"="To .webm"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\02webm\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webm.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\03mkv]
+"MUIVerb"="To .mkv"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\video.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\03mkv\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mkv.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\05mp3]
+"MUIVerb"="To .mp3"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\05mp3\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\mp3.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\06ogg]
+"MUIVerb"="To .ogg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\audio.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\NoxConvertor\shell\06ogg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ogg.py\" \"%1\""
+
+; PNG
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\02jpg]
+"MUIVerb"="To .jpg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\02jpg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\jpg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\03gif]
+"MUIVerb"="To .gif"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\03gif\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\gif.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\04ico]
+"MUIVerb"="To .ico"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\04ico\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ico.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\05webp]
+"MUIVerb"="To .webp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\05webp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\06bmp]
+"MUIVerb"="To .bmp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\06bmp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\bmp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\07tiff]
+"MUIVerb"="To .tiff"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\07tiff\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\tiff.py\" \"%1\""
+
+; JPG
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\01png]
+"MUIVerb"="To .png"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\01png\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\png.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\03gif]
+"MUIVerb"="To .gif"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\03gif\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\gif.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\04ico]
+"MUIVerb"="To .ico"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\04ico\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ico.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\05webp]
+"MUIVerb"="To .webp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\05webp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\05bmp]
+"MUIVerb"="To .bmp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\05bmp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\bmp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\06tiff]
+"MUIVerb"="To .tiff"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\NoxConvertor\shell\06tiff\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\tiff.py\" \"%1\""
+
+; GIF
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\01png]
+"MUIVerb"="To .png"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\01png\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\png.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\02jpg]
+"MUIVerb"="To .jpg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\02jpg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\jpg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\04ico]
+"MUIVerb"="To .ico"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\04ico\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ico.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\05webp]
+"MUIVerb"="To .webp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\05webp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\05bmp]
+"MUIVerb"="To .bmp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\05bmp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\bmp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\06tiff]
+"MUIVerb"="To .tiff"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\shell\NoxConvertor\shell\06tiff\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\tiff.py\" \"%1\""
+
+; ICO
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\01png]
+"MUIVerb"="To .png"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\01png\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\png.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\02jpg]
+"MUIVerb"="To .jpg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\02jpg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\jpg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\03gif]
+"MUIVerb"="To .gif"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\03gif\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\gif.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\05webp]
+"MUIVerb"="To .webp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\05webp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\05bmp]
+"MUIVerb"="To .bmp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\05bmp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\bmp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\06tiff]
+"MUIVerb"="To .tiff"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\06tiff\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\tiff.py\" \"%1\""
+
+; BMP
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\01png]
+"MUIVerb"="To .png"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\NoxConvertor\shell\01png\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\png.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\02jpg]
+"MUIVerb"="To .jpg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\02jpg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\jpg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\03gif]
+"MUIVerb"="To .gif"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\03gif\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\gif.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\04ico]
+"MUIVerb"="To .ico"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\04ico\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ico.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\05webp]
+"MUIVerb"="To .webp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\shell\NoxConvertor\shell\05webp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\06tiff]
+"MUIVerb"="To .tiff"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\shell\NoxConvertor\shell\06tiff\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\tiff.py\" \"%1\""
+
+; TIFF
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\01png]
+"MUIVerb"="To .png"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\01png\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\png.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\02jpg]
+"MUIVerb"="To .jpg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\02jpg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\jpg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\03gif]
+"MUIVerb"="To .gif"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\03gif\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\gif.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\04ico]
+"MUIVerb"="To .ico"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\04ico\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ico.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\05webp]
+"MUIVerb"="To .webp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\05webp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\webp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\05bmp]
+"MUIVerb"="To .bmp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor\shell\05bmp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\bmp.py\" \"%1\""
+
+; WEBP
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\01png]
+"MUIVerb"="To .png"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\01png\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\png.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\02jpg]
+"MUIVerb"="To .jpg"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\02jpg\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\jpg.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\03gif]
+"MUIVerb"="To .gif"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\03gif\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\gif.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\04ico]
+"MUIVerb"="To .ico"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\04ico\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\ico.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\05bmp]
+"MUIVerb"="To .bmp"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\05bmp\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\bmp.py\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\06tiff]
+"MUIVerb"="To .tiff"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\NoxConvertor\shell\06tiff\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\tiff.py\" \"%1\""

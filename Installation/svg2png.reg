@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; WEBP
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.svg\shell\NoxConvertor]
+"MUIVerb"="NoxConvertor v1.7"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\icon.ico\""
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.svg\shell\NoxConvertor\shell\01png]
+"MUIVerb"="To .png"
+"Icon"="\"C:\\Program Files\\NoxConvertor\\Assets\\photo.ico\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.svg\shell\NoxConvertor\shell\01png\command]
+@="cmd.exe /c python \"C:\\Program Files\\NoxConvertor\\Main\\svg\\png.py\" \"%1\""
