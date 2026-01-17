@@ -5,7 +5,7 @@ winget install -e --id Gyan.FFmpeg
 REM Install Python packages
 pip install plyer
 pip install pillow
-pip install ffmpeg
+pip install ffmpeg-python
 pip install cairosvg
 
 echo.
